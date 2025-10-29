@@ -27,7 +27,7 @@
       $( "button" ).click(function() {
         $.ajax({
               dataType: 'json',
-                url: "http://127.0.0.1:5984/personas003/_design/uno/_view/new-view"
+                url: "http://127.0.0.1:5984/personas001/_design/uno/_view/new-view"
               }).done(function(data) {
                 console.log(Object.keys(data));
                 console.log(Object.keys(data.rows[0]));
